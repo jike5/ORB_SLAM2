@@ -18,7 +18,7 @@
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
 
-
+#include<unistd.h>
 #include "Tracking.h"
 
 #include<opencv2/core/core.hpp>
@@ -36,6 +36,7 @@
 #include<iostream>
 
 #include<mutex>
+
 
 
 using namespace std;
